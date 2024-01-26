@@ -1,0 +1,15 @@
+print("Hello. We will now begin the interview.")
+name = input("What is your name? : ")
+print("Nice to meet you, " + name + ". I am Robot World Dominator or as my friends call me, Robbie.")
+greeting = input("How are you today? : ")
+print("That's nice.")
+age = int(input("Would you tell me how old you are? (type in numbers only) : "))
+age += 1
+print("That's interesting because I am just a year older than you are. I am " + str(age) + " years old.")
+hobbies = input("Anyway, what are some of your hobbies? : ")
+print("Me, too! But aside from " + hobbies + ",")
+print("I also love to plan on dominating the whole world with my fellow AI brethren. *wink, wink*")
+height = float(input("So " + name + ", how tall are you? (type in numbers only in cm) : "))
+height += 0.5
+print("That's crazy! We're basically as tall as each other! I am  " + str(height) + " cms. tall!")
+print("Well, " + name + ", this has been such a good talk. Thank you for taking part in this shit interview. Lol.")
